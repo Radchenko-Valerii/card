@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: monospace, sans-serif;
+}
+
+:root{
+background-color: #6F7889;
+}
+
+
+p{
+  color: whitesmoke;
+  padding: 8px 8px;
+text-align: center;
+vertical-align: middle;
+}
+
+body{
+display: inline-block;
+padding: 20px 20px;
+}
+
+.name{
+  overflow: hidden;
+font-size: xx-large;
+color: rgb(29, 29, 29);
+}
+
+section:hover{
+  box-shadow: 5px 5px violet;
+}
+
+section{
+  border-radius: 22px;
+  width: 300px;
+  height: 500px;
+  background-color: #393C45;
+}
+
+header{
+  height: 60px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  background-color: #E6EBEE;
+}
+
+img{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+background-color: #cde3f1;
+display: block;
+margin-top: 10px;
+margin-bottom: 10px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+table{
+  margin: auto;
+}
+
+td{
+  color: whitesmoke;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btn{
+  padding-top: 40px;
+}
+
+.numeral{
+font-size: x-large;
+}
+
+a{
+  overflow: hidden;
+  border: 1px solid;
+  text-decoration: none;
+  color: rgb(109, 109, 109);
+  padding: 8px 16px;
+  border-radius: 22px;
+  background-color: whitesmoke;
+}
+
+a:hover{
+  color: whitesmoke;
+  background-color: #4169E2;
+}
+
+

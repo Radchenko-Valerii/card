@@ -22,6 +22,8 @@ padding: 20px 20px;
 
 .name{
   overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 font-size: xx-large;
 color: rgb(29, 29, 29);
 text-align: center;
@@ -96,6 +98,9 @@ a{
   padding: 8px 16px;
   border-radius: 22px;
   background-color: whitesmoke;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 a:hover{

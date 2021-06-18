@@ -11,8 +11,8 @@ background-color: #6F7889;
 
 p{
   color: whitesmoke;
-  padding: 8px 8px;
-text-align: center;
+  padding: 8px 12px;
+text-align: justify;
 vertical-align: middle;
 }
 
@@ -24,6 +24,8 @@ padding: 20px 20px;
   overflow: hidden;
 font-size: xx-large;
 color: rgb(29, 29, 29);
+text-align: center;
+font-weight: bold;
 }
 
 section:hover{
@@ -35,7 +37,7 @@ section{
   width: 300px;
   height: 500px;
   background-color: #393C45;
-  display: block;
+  display: inline-block;
   margin: 0 auto;
 
 }
@@ -47,10 +49,15 @@ header{
   background-color: #E6EBEE;
 }
 
+img:hover{
+  box-shadow: 3px 3px violet;
+}
+
 img{
 width: 150px;
 height: 150px;
 border-radius: 50%;
+object-fit: cover;
 background-color: #cde3f1;
 display: block;
 margin-top: 10px;
@@ -77,6 +84,7 @@ td{
 }
 
 .numeral{
+  font-weight: bold;
 font-size: x-large;
 }
 
